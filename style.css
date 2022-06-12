@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: rgb(31, 31, 31);
+    color: #eee;
+}
+.header{
+display: flex;
+height: 35vh;
+position: relative;
+align-items: center;
+justify-content: space-between;
+border-bottom: 7px solid #eee;
+}
+.title{
+    position: absolute;
+    align-self: center;
+    padding: 60px;
+    font-size: 2.5rem;
+    width: auto;
+    top: 30%;
+    left: 30%;
+}
+.between{
+    position: absolute;
+    font-size: 1rem;
+    right: 1.5rem;
+    top: 1.5rem;
+}
+.btn__again{
+    position: absolute;
+    padding: 1.25rem 2rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 1.25rem;
+    font-family: inherit;
+    cursor: pointer;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+.number{
+    color: #222;
+    background-color: #eee;
+    font-size: 4rem;
+    display: flex;
+    position: absolute;
+    align-self: center;
+    left: 46%;
+    top: 28%;
+    padding: 2rem 3rem;
+}
+.main{
+    height: 64vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #eee;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60rem;
+
+}
+.input__container{
+    border: #eee 4px solid;
+    background: none;
+    font-family: inherit;
+    width: 12rem;
+    padding: 2rem;
+    display: block;
+    color: #eee;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.btn__check{
+    padding: 1.25rem 2rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 1.25rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60rem;
+    font-size: 0.7rem;
+    row-gap: 3rem;
+}
+.message{
+    font-weight: 100;
+    font-size: 1.25rem;
+
+
+}
+.scores{
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
+    margin-bottom: 5rem;
+
+}
+.btn__again:hover{
+    background: #ccc;
+}
+.btn__check:hover{
+    background: #ccc;
+}
